@@ -1,2 +1,1 @@
-console.log("did this work?")
-alert(1)
+// empty file just in case we need to add some js to the printouts such as sorting tables etc
