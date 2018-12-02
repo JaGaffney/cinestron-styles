@@ -1,7 +1,7 @@
 //sorts the current table into order when clicked
-function sortTable(n) {
+function sortTable(n, table_name_id) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-  table = document.getElementById("cinestron_table");
+  table = document.getElementById(table_name_id);
   switching = true;
   //Set the sorting direction to ascending:
   dir = "asc"; 
