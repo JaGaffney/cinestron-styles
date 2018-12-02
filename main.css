@@ -1,0 +1,21 @@
+/*custom changes to the main bootstap css*/
+
+body {
+    font-size: 20px; 
+    color: black;
+}
+
+table {
+    font-size: 22px; 
+    color: black;
+}
+
+th {
+    font-size: 24px; 
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #fcfcfc;
+    color: black;
+}
