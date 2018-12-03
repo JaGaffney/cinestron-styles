@@ -1,7 +1,6 @@
 //sorts the current table into order when clicked
 function sortTable(n, table_name_id) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-  console.log("table_name_id with id ", table_name_id.id)
   table = document.getElementById(table_name_id.id);
   switching = true;
   //Set the sorting direction to ascending:
