@@ -13,6 +13,7 @@ table {
 th {
     font-size: 24px; 
     color: black;
+    cursor: pointer;
 }
 
 tr:nth-child(even) {
