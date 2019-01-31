@@ -10,6 +10,11 @@ table {
     color: black;
 }
 
+table:hover {
+	background: #b56c17;
+	color: white;
+}
+
 th {
     font-size: 24px; 
     color: black;
@@ -19,4 +24,8 @@ th {
 tr:nth-child(even) {
     background-color: #d9d9d9;
     color: black;
+}
+
+tr{
+	border-bottom: 1px solid black;
 }
