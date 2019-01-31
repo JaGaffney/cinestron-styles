@@ -10,7 +10,7 @@ table {
     color: black;
 }
 
-table:hover {
+tr:hover {
 	background: #b56c17;
 	color: white;
 }
