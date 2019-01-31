@@ -8,17 +8,16 @@ body {
 table {
     font-size: 22px; 
     color: black;
+    border-collapse: collapse; 
 }
 
-tr:hover {
-	background: #b56c17;
-	color: white;
-}
+
 
 th {
     font-size: 24px; 
     color: black;
     cursor: pointer;
+    background-color: #b56c17;
 }
 
 tr:nth-child(even) {
@@ -28,4 +27,9 @@ tr:nth-child(even) {
 
 tr{
 	border-bottom: 1px solid black;
+}
+
+tr:hover {
+	background-color: #b56c17;
+	color: white;
 }
