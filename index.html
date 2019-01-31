@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="bootstrap.min.css" rel="stylesheet" type='text/css'/>
+<link href="main.css" rel="stylesheet" type='text/css'/>
+
+</head>
+
+<body>
+<h1>testing</h1>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color:#191919 !important;">
+<a class="navbar-brand" href="#"><img src="https://image.ibb.co/kRBkvL/logofull-edited-scaled.png" alt="logofull-edited-scaled" border="0"></a></nav>
+<br><div class="jumbotron-style">
+<div class="container">
+<h1>Project: mtr</h1>
+<hr class="my-4">
+</div>
+</div>
+<br>
+<br>
+<div class="jumbotron-style">
+	<div class="container">
+		<h3>Total cost: 2568.02</h3>
+			<table class="table table-hover" id="cinestron_table">
+				<thead>
+					<tr>
+						<th scope="col" onClick="sortTable(0, cinestron_table)">Shot name</th>
+						<th scope="col" onClick="sortTable(1, cinestron_table)">Task</th>
+						<th scope="col" onClick="sortTable(2, cinestron_table)">Total days</th>
+						<th scope="col" onClick="sortTable(3, cinestron_table)">Rate multiplier</th>
+						<th scope="col" onClick="sortTableCurrency(4, cinestron_table)">Total Cost USD </th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+						SEQUENCE:seq0001, 	SHOT:shot0001</td><td>		TASK:compositing</td>
+						<td> 1</td>
+						<td>1.5</td>
+						<td>USD 160.5</td>
+					</tr>
+					<tr>
+						<td>
+						SEQUENCE:seq0001, 	SHOT:shot0001</td><td>		TASK:fx</td>
+						<td>0.25</td>
+						<td>2.5</td>
+						<td>USD 66.88</td>
+					</tr>
+					<tr>
+						<td>
+						SEQUENCE:seq0001, 	SHOT:shot0001</td><td>		TASK:delivery_data</td>
+						<td>0</td>
+						<td>2.0</td>
+						<td>USD 0.0</td>
+					</tr>
+					<tr>
+						<td>
+						SEQUENCE:seq0001, 	SHOT:shot0002</td><td>		TASK:compositing</td>
+						<td> 1</td>
+						<td>1.5</td>
+						<td>USD 160.5</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0002</td><td>		TASK:fx</td>
+					<td>0.75</td>
+					<td>2.5</td>
+					<td>USD 200.62</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0003</td><td>		TASK:compositing</td>
+					<td> 1</td>
+					<td>1.5</td>
+					<td>USD 160.5</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0003</td><td>		TASK:fx</td>
+					<td>1.0</td>
+					<td>2.5</td>
+					<td>USD 267.5</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0004</td><td>		TASK:compositing</td>
+					<td>1.0</td>
+					<td>1.5</td>
+					<td>USD 160.5</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0004</td><td>		TASK:fx</td>
+					<td>1.0</td>
+					<td>2.5</td>
+					<td>USD 267.5</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0005</td><td>		TASK:compositing</td>
+					<td> 1</td>
+					<td>1.5</td>
+					<td>USD 160.5</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0005</td><td>		TASK:fx</td>
+					<td>0.25</td>
+					<td>2.5</td>
+					<td>USD 66.88</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0006</td><td>		TASK:compositing</td>
+					<td> 1</td>
+					<td>1.5</td>
+					<td>USD 160.5</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0006</td><td>		TASK:fx</td>
+					<td>0.5</td>
+					<td>2.5</td>
+					<td>USD 133.75</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0007</td><td>		TASK:compositing</td>
+					<td>1.0</td>
+					<td>1.5</td>
+					<td>USD 160.5</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0007</td><td>		TASK:fx</td>
+					<td>0.25</td>
+					<td>2.5</td>
+					<td>USD 66.88</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0008</td><td>		TASK:compositing</td>
+					<td>0.5</td>
+					<td>1.5</td>
+					<td>USD 80.25</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0008</td><td>		TASK:fx</td>
+					<td>0.25</td>
+					<td>2.5</td>
+					<td>USD 66.88</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0009</td><td>		TASK:compositing</td>
+					<td> 1</td>
+					<td>1.5</td>
+					<td>USD 160.5</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:shot0009</td><td>		TASK:fx</td>
+					<td>0.25</td>
+					<td>2.5</td>
+					<td>USD 66.88</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:testshot</td><td>		TASK:compositing</td>
+					<td>0</td>
+					<td>1.0</td>
+					<td>USD 0.0</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:testshot</td><td>		TASK:lighting</td>
+					<td>0</td>
+					<td>1.0</td>
+					<td>USD 0.0</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:testshot</td><td>		TASK:fx</td>
+					<td>0</td>
+					<td>1.0</td>
+					<td>USD 0.0</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:testshot</td><td>		TASK:cloth</td>
+					<td>0</td>
+					<td>1.0</td>
+					<td>USD 0.0</td>
+					</tr>
+					<tr>
+					<td>
+					SEQUENCE:seq0001, 	SHOT:testshot3</td><td>		TASK:compositing</td>
+					<td>0</td>
+					<td>1.0</td>
+					<td>USD 0.0</td>
+					</tr>
+					<tr>
+					<td></td><td></td>
+					<td></td>
+					<td>Total:</td>
+					<td>USD 2568.02</td>
+					</tr>
+				</tbody>
+			</table>
+				
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+
+</head>
+</html>
