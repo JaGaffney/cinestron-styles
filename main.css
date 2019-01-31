@@ -24,7 +24,7 @@ tr:nth-child(even) {
 }
 
 td{
-	border-bottom: 1pt solid black;
+	border: 1pt solid black;
 }
 
 .table-hover tbody tr:hover td {
