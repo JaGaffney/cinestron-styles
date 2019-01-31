@@ -13,14 +13,14 @@ table {
 
 th {
     font-size: 24px; 
-    color: black;
+    color: white;
     cursor: pointer;
-    background-color: #b56c17;
+    background-color: #1a1a1a;
 }
 
 tr:nth-child(even) {
-    background-color: #d9d9d9;
-    color: black;
+    background-color: #4d4d4d;
+    color: white;
 }
 
 td{
