@@ -29,5 +29,6 @@ td{
 
 .table-hover tbody tr:hover td {
     background: #ffddb3;
+    color: black;
 }
 
