@@ -11,8 +11,6 @@ table {
     border-collapse: collapse; 
 }
 
-
-
 th {
     font-size: 24px; 
     color: black;
@@ -25,11 +23,7 @@ tr:nth-child(even) {
     color: black;
 }
 
-tr{
-	border-bottom: 1px solid black;
+td{
+	border-bottom: 1pt solid black;
 }
 
-tr:hover {
-	background-color: #b56c17;
-	color: white;
-}
