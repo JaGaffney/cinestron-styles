@@ -18,7 +18,6 @@ th {
     color: white;
     cursor: pointer;
     background-color: #191919;
-    max-width: 5rem;
 }
 
 tr:nth-child(even) {
@@ -38,9 +37,7 @@ td{
 
 
 .table td {
-	padding: 0;
-	margin: 0;
-	max-width: 5rem;
+	padding: 0.5rem;
 }
 
 .table th{
