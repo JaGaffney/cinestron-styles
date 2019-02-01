@@ -6,13 +6,13 @@ body {
 }
 
 table {
-    font-size: 22px; 
+    font-size: 14px; 
     color: black;
     border-collapse: collapse; 
 }
 
 th {
-    font-size: 24px; 
+    font-size: 20px; 
     color: white;
     cursor: pointer;
     background-color: #191919;
