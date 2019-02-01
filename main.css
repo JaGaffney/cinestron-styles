@@ -9,6 +9,8 @@ table {
     font-size: 14px; 
     color: black;
     border-collapse: collapse; 
+    padding: 0;
+    margin: 0;
 }
 
 th {
@@ -33,7 +35,18 @@ td{
 }
 
 
-.table th,
+
 .table td {
 	padding: 0;
+	margin: 0;
+}
+
+.table th{
+	padding: 0;
+	margin: 0;
+}
+
+.table {
+	padding: 0;
+	margin: 0;
 }
