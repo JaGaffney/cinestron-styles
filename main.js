@@ -120,6 +120,7 @@ function sortTableCurrency(n, table_name_id) {
 }
 
 collapseInfo = (div_id) => {
+	console.log("did this work")
 	let div = document.getElementById(div_id);
 	if (div.style.display == "none") {
 		div.style.display = "block";
