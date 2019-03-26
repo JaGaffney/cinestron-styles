@@ -118,3 +118,20 @@ function sortTableCurrency(n, table_name_id) {
     }
   }
 }
+
+collapseInfo = (div_id) => {
+	let div = document.getElementById(div_id);
+	if (div.style.display == "none") {
+		div.style.display = "block";
+		setTimeout(() => {
+			div.style.opacity = 1;
+			div.style.transition = "opacity 1s ease-in-out";
+		}, 2)
+	} else  {
+		div.style.display = "none";
+		setTimeout(() => {
+			div.style.opacity = 0;
+			div.style.transition = "opacity 1s ease-in-out";
+		}, 2)
+	}
+}
