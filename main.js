@@ -119,10 +119,13 @@ function sortTableCurrency(n, table_name_id) {
   }
 }
 
-collapseInfo = function (div_id) {
+collapseInfo = function (div_id, span_id) {
     var div = document.getElementById(div_id);
+    var span = document.getElementById(span_id);
     if (div.style.display == "none") {
         div.style.display = "block";
+        span.innerHTML = '- ';
+        span.style.color = 'black';
         setTimeout(function () {
             div.style.opacity = 1;
             div.style.transition = "opacity 1s ease-in-out";
@@ -130,6 +133,7 @@ collapseInfo = function (div_id) {
     }
     else {
         div.style.display = "none";
+        span.innerHTML = '+ ';
         setTimeout(function () {
             div.style.opacity = 0;
             div.style.transition = "opacity 1s ease-in-out";
